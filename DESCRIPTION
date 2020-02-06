@@ -1,0 +1,44 @@
+Package: sigident.func
+Title: Sigident Functional Analysis
+Version: 0.0.1.9001
+Authors@R: 
+    c(person(given = "Lorenz A.",
+             family = "Kapsner",
+             role = c("cre", "aut"),
+             email = "lorenz.kapsner@uk-erlangen.de",
+             comment = c(ORCID = "0000-0003-1866-860X")),
+      person(given = "Johannes",
+             family = "Vey",
+             role = "aut"),
+      person(given = "Meik",
+             family = "Kunz",
+             role = "aut"),
+      person(given = "Andreas",
+             family = "Pittroff",
+             role = "aut"))
+Description: Functional analysis. Part of the sigident package framework.
+License: GPL-3
+LazyData: true
+URL: https://gitlab.miracum.org/clearly/sigident.func
+BugReports: https://gitlab.miracum.org/clearly/sigident.func/issues
+Encoding: UTF-8
+VignetteBuilder: knitr
+Date: 2020-02-06
+biocViews: 
+Imports: 
+    data.table,
+    ggplot2,
+    gplots,
+    Biobase,
+    clusterProfiler,
+    pathfindR,
+    pathview,
+    limma
+Remotes: 
+    url::https://gitlab.miracum.org/clearly/sigident.preproc/-/archive/development/clearly/sigident.preproc-development.zip
+Suggests: 
+    testthat,
+    rmarkdown,
+    qpdf,
+    knitr,
+    lintr
