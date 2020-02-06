@@ -1,6 +1,6 @@
 Package: sigident.func
 Title: Sigident Functional Analysis
-Version: 0.0.1.9001
+Version: 0.0.1
 Authors@R: 
     c(person(given = "Lorenz A.",
              family = "Kapsner",

@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 
 In order to use this R package and its functions, you need to prepare a merged gene expression dataset. The workflow to achieve this is presented in the following by making use of the R package `sigident.preproc`.
 
-For a detailed background on the following steps please view the `sigident.preproc` package's vignette.
+For a detailed background and description of the following steps please view the `sigident.preproc` package's vignette.
 
 ## Initialization of important variables
 
