@@ -84,7 +84,7 @@ sigident.preproc::load_geo_data(
   datadir = datadir,
   plotdir = plotdir,
   idtype = idtype,
-  viz_batch_hist = F,
+  viz_batch_boxp = F,
   viz_batch_gpca = F
 ) 
 ```
@@ -117,17 +117,17 @@ A heatmap based on the selected DEGs is created and clear differences regarding 
 fdr <- 0.05
 
 genes <- sigident.func::identify_degs(mergeset = mergeset,
-                                 diagnosis = diagnosis,
-                                 q_value = fdr)
+                                      diagnosis = diagnosis,
+                                      q_value = fdr)
 
 # heatmap creation
 filename <- paste0(plotdir, "DEG_heatmap.png")
 # create colors for map
 ht_colors <- sigident.func::color_heatmap(sample_metadata = sample_metadata)
 sigident.func::plot_deg_heatmap(mergeset = mergeset,
-                           genes = genes,
-                           patientcolors = ht_colors,
-                           filename = filename)
+                                genes = genes,
+                                patientcolors = ht_colors,
+                                filename = filename)
 ```
 
 ```{r out.width='80%'}
@@ -138,8 +138,8 @@ Some investigations may have been finished at this point yielding the DEGs. We p
 
 ```{r}
 deg_info <- sigident.func::export_deg_annotations(mergedset = mergedset,
-                                             genes = genes,
-                                             idtype = idtype)
+                                                  genes = genes,
+                                                  idtype = idtype)
 data.table::fwrite(deg_info, paste0(csvdir, "DEG_info.csv"))
 ```
 
@@ -150,8 +150,8 @@ knitr::kable(head(deg_info))
 
 ```{r}
 deg_results <- sigident.func::limma_top_table(mergeset = mergeset,
-                                         diagnosis = diagnosis,
-                                         q_value = fdr)
+                                              diagnosis = diagnosis,
+                                              q_value = fdr)
 data.table::fwrite(deg_results, paste0(csvdir, "DEG_results.csv"))
 ```
 
@@ -189,7 +189,7 @@ For the identification of enriched GO terms and KEGG pathways an over-representa
 
 ```{r}
 enr_topgo <- sigident.func::extract_go_terms(gene = deg_entrez,
-                                        species = species)
+                                             species = species)
 data.table::fwrite(enr_topgo, paste0(csvdir, "Top_GO.csv"))
 ```
 ```{r}
@@ -199,7 +199,7 @@ knitr::kable(head(enr_topgo))
 
 ```{r}
 enr_topkegg <- sigident.func::extract_kegg_terms(gene = deg_entrez,
-                                            species = species)
+                                                 species = species)
 data.table::fwrite(enr_topkegg, paste0(csvdir, "Top_KEGG.csv"))
 ```
 ```{r}
