@@ -35,7 +35,7 @@ Imports:
     pathview,
     limma
 Remotes: 
-    url::https://gitlab.miracum.org/clearly/sigident.preproc/-/archive/development/clearly/sigident.preproc-development.zip
+    url::https://gitlab.miracum.org/clearly/sigident.preproc/-/archive/v0.0.2/clearly/sigident.preproc-v0.0.2.zip
 Suggests: 
     testthat,
     rmarkdown,
