@@ -25,8 +25,8 @@ For a detailed background on the following steps please view the `sigident.prepr
 ## Initialization of important variables
 
 ```{r setup}
-library(sigident)
 library(sigident.preproc)
+library(sigident.func)
 library(knitr)
 
 # initialize filePath:
