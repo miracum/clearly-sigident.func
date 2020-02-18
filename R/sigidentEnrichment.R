@@ -67,7 +67,7 @@ sigidentEnrichment <- function(mergedset,
   rv$mergeset <- mergeset
 
   # gene enrichment
-  rv$deg_entrez <- unique(mergedset@featureData@data$ENTREZ_GENE_ID)
+  rv$deg_entrez <- unique(rv$mergedset@featureData@data$ENTREZ_GENE_ID)
   rv$deg_entrez <- rv$deg_entrez[rv$deg_entrez != ""]
 
   # test for over-representation of gene ontology terms
