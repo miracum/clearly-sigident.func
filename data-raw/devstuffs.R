@@ -77,7 +77,7 @@ devtools::install_git(url = "https://gitlab.miracum.org/clearly/sigident.preproc
 # https://cran.r-project.org/web/packages/devtools/vignettes/dependencies.html
 desc::desc_set_remotes(c(
   paste0(
-    "url::https://gitlab.miracum.org/clearly/sigident.preproc/-/archive/", mytag, "/clearly/sigident.preproc-", mytag, ".zip")
+    "url::https://gitlab.miracum.org/clearly/sigident.preproc/-/archive/", mytag, "/sigident.preproc-", mytag, ".zip")
 ),
 file = usethis::proj_get())
 
