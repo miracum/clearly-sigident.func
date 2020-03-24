@@ -21,7 +21,7 @@
 !/README.md
 !/tests/
 /.Rhistory
-/*.Rproj
 /.Rproj*
 /.RData
 /.vscode
+!/*.Rproj

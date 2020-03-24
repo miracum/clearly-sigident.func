@@ -72,7 +72,7 @@ usethis::use_package("limma", type="Imports")
 
 
 # Development package
-mytag <- "v0.0.3"
+mytag <- "development"
 devtools::install_git(url = "https://gitlab.miracum.org/clearly/sigident.preproc", ref = mytag, upgrade = "always")
 # https://cran.r-project.org/web/packages/devtools/vignettes/dependencies.html
 desc::desc_set_remotes(c(
@@ -121,7 +121,7 @@ usethis::use_git_ignore("!/vignettes/*.Rmd")
 usethis::use_git_ignore("!/README.md")
 usethis::use_git_ignore("!/tests/")
 usethis::use_git_ignore("/.Rhistory")
-usethis::use_git_ignore("/*.Rproj")
+usethis::use_git_ignore("!/*.Rproj")
 usethis::use_git_ignore("/.Rproj*")
 usethis::use_git_ignore("/.RData")
 usethis::use_git_ignore("/.vscode")
