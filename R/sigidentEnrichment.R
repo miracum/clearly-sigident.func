@@ -18,7 +18,7 @@
 #'
 #'
 #' @export
-sigidentEnrichment <- function(mergedset,
+sigidentEnrichment <- function(mergedset, # nolint
                                mergeset,
                                idtype,
                                diagnosis,

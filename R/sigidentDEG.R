@@ -28,7 +28,7 @@
 #'
 #' @export
 
-sigidentDEG <- function(mergeset,
+sigidentDEG <- function(mergeset, # nolint
                         mergedset,
                         sample_metadata,
                         diagnosis,

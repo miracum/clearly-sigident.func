@@ -25,3 +25,4 @@
 /.RData
 /.vscode
 !/*.Rproj
+!/.lintr

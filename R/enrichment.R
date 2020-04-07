@@ -140,13 +140,13 @@ go_enrichment_analysis <- function(gene,
   utils::data("bods", package = "pathview")
   utils::data("gene.idtype.bods", package = "pathview")
   # workaround to set correct workingdir for pathview
-  #oldwd <- getwd()
-  #setwd(paste0(oldwd, "/", plotdir))
+  #% oldwd <- getwd()
+  #% setwd(paste0(oldwd, "/", plotdir))
   p_out1 <- pathview::pathview(gene.data = gene_fc,
                                pathway.id = pathwayid,
                                kegg.dir = plotdir,
                                species = organism)
-  #setwd(oldwd)
+  #% setwd(oldwd)
 
   return(list(
     go = ego,

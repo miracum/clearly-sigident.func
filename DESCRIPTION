@@ -1,6 +1,6 @@
 Package: sigident.func
 Title: Sigident Functional Analysis
-Version: 0.0.2.9001
+Version: 0.0.2.9002
 Authors@R: 
     c(person(given = "Lorenz A.",
              family = "Kapsner",
@@ -23,7 +23,7 @@ URL: https://gitlab.miracum.org/clearly/sigident.func
 BugReports: https://gitlab.miracum.org/clearly/sigident.func/issues
 Encoding: UTF-8
 VignetteBuilder: knitr
-Date: 2020-03-24
+Date: 2020-04-07
 biocViews: 
 Imports: 
     data.table,
@@ -31,14 +31,14 @@ Imports:
     gplots,
     Biobase,
     clusterProfiler,
-    pathfindR,
     pathview,
     limma
-Remotes: 
-    url::https://gitlab.miracum.org/clearly/sigident.preproc/-/archive/development/sigident.preproc-development.zip
 Suggests: 
+    pathfindR,
     testthat,
     rmarkdown,
     qpdf,
     knitr,
     lintr
+Remotes: 
+    url::https://gitlab.miracum.org/clearly/sigident.preproc/-/archive/development/sigident.preproc-development.zip
