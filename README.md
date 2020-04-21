@@ -5,7 +5,7 @@
 [![coverage report](https://gitlab.miracum.org/clearly/sigident.func/badges/master/coverage.svg)](https://gitlab.miracum.org/clearly/sigident.func/commits/master)
 <!-- badges: end -->
 
-This is the repository of the R package `sigident.func`. It provides functional analysis and is part of the sigident package framework: [https://gitlab.miracum.org/clearly/sigident](https://gitlab.miracum.org/clearly/sigident)
+This is the repository of the R package `sigident.func`. It provides functional analysis and is part of the `sigident` package framework: [https://gitlab.miracum.org/clearly/sigident](https://gitlab.miracum.org/clearly/sigident)
 
 # Overview 
 
@@ -25,7 +25,11 @@ install.packages("devtools")
 devtools::install_git("https://gitlab.miracum.org/clearly/sigident.func.git")
 ```
 
-# Example: 
+# Example
+
+Please study the [package's vignette](vignettes/) for a detailed example. 
+
+Since the building the package vignette takes rather long (~ 20 min.), we provide the already built vignettes in [this repository](https://gitlab.miracum.org/clearly/sigident_vignettes). 
 
 # Caution 
 

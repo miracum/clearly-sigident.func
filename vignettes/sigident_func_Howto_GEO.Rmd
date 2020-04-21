@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 )
 ```
 
+The R package `sigident.func` provides functional analysis and is part of the `sigident` package framework: [https://gitlab.miracum.org/clearly/sigident](https://gitlab.miracum.org/clearly/sigident)
+
 # Preprocessing 
 
 In order to use this R package and its functions, you need to prepare a merged gene expression dataset. The workflow to achieve this is presented in the following by making use of the R package `sigident.preproc`.
