@@ -72,7 +72,7 @@ usethis::use_package("limma", type="Imports")
 
 
 # Development package
-preproc_tag <- "v0.0.4"
+preproc_tag <- "development"
 devtools::install_git(url = "https://gitlab.miracum.org/clearly/sigident.preproc", ref = preproc_tag, upgrade = "always")
 # https://cran.r-project.org/web/packages/devtools/vignettes/dependencies.html
 desc::desc_set_remotes(c(
