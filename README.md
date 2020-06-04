@@ -22,7 +22,7 @@ You can install *sigident.func* with the following commands in R:
 ``` r
 options('repos' = 'https://ftp.fau.de/cran/')
 install.packages("devtools")
-devtools::install_git("https://gitlab.miracum.org/clearly/sigident.func.git")
+devtools::install_github("miracum/clearly-sigident.func")
 ```
 
 # Example
