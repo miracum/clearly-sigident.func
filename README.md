@@ -2,6 +2,8 @@
 
 <!-- badges: start -->
 [![R CMD Check via {tic}](https://github.com/miracum/clearly-sigident.func/workflows/R%20CMD%20Check%20via%20{tic}/badge.svg?branch=master)](https://github.com/miracum/clearly-sigident.func/actions)
+[![linting](https://github.com/miracum/clearly-sigident.func/workflows/lint/badge.svg?branch=master)](https://github.com/miracum/clearly-sigident.func/actions)
+[![test-coverage](https://github.com/miracum/clearly-sigident.func/workflows/test-coverage/badge.svg?branch=master)](https://github.com/miracum/clearly-sigident.func/actions)
 [![pipeline status](https://gitlab.miracum.org/clearly/sigident.func/badges/master/pipeline.svg)](https://gitlab.miracum.org/clearly/sigident.func/commits/master)
 [![coverage report](https://gitlab.miracum.org/clearly/sigident.func/badges/master/coverage.svg)](https://gitlab.miracum.org/clearly/sigident.func/commits/master)
 <!-- badges: end -->
