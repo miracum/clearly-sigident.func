@@ -24,7 +24,6 @@ The functional analysis includes the following steps:
 You can install *sigident.func* with the following commands in R:
 
 ``` r
-options('repos' = 'https://ftp.fau.de/cran/')
 install.packages("devtools")
 devtools::install_github("miracum/clearly-sigident.func")
 ```
