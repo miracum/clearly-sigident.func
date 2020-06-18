@@ -20,7 +20,7 @@ my_desc$del("Maintainer")
 # Vignette Builder
 my_desc$set("VignetteBuilder" = "knitr")
 # Set the version
-my_desc$set_version("0.0.3.9002")
+my_desc$set_version("0.0.3.9003")
 # The title of your package
 my_desc$set(Title = "Sigident Functional Analysis")
 # The description of your package
@@ -62,6 +62,7 @@ usethis::use_gpl3_license(name = "Universitätsklinikum Erlangen")
 usethis::use_package("data.table", type="Imports")
 usethis::use_package("ggplot2", type="Imports")
 usethis::use_package("gplots", type="Imports")
+usethis::use_package("sigident.preproc", type="Imports")
 
 # Bioconductor
 # https://github.com/r-lib/devtools/issues/700
