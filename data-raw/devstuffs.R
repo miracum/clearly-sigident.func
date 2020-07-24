@@ -20,7 +20,7 @@ my_desc$del("Maintainer")
 # Vignette Builder
 my_desc$set("VignetteBuilder" = "knitr")
 # Set the version
-my_desc$set_version("0.0.3.9003")
+my_desc$set_version("0.0.3.9004")
 # The title of your package
 my_desc$set(Title = "Sigident Functional Analysis")
 # The description of your package

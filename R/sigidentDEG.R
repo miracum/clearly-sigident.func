@@ -37,7 +37,7 @@ sigidentDEG <- function(mergeset, # nolint
                         plotdir = "./plots/",
                         csvdir = "./tables/") {
   stopifnot(
-    class(mergeset) == "matrix",
+    class(mergeset) == c("matrix", "array"),
     is.data.frame(sample_metadata),
     is.character(idtype),
     idtype %in% c("entrez", "affy"),
