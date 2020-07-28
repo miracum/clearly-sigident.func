@@ -1,6 +1,6 @@
 Package: sigident.func
 Title: Sigident Functional Analysis
-Version: 0.0.4
+Version: 0.0.4.9001
 Authors@R: 
     c(person(given = "Lorenz A.",
              family = "Kapsner",
@@ -43,5 +43,4 @@ Suggests:
     knitr,
     lintr
 Remotes: 
-    github::miracum/clearly-sigident.preproc@v0.0.5
-RoxygenNote: 7.1.1
+    github::miracum/clearly-sigident.preproc@development

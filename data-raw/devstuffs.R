@@ -20,7 +20,7 @@ my_desc$del("Maintainer")
 # Vignette Builder
 my_desc$set("VignetteBuilder" = "knitr")
 # Set the version
-my_desc$set_version("0.0.4")
+my_desc$set_version("0.0.4.9001")
 # The title of your package
 my_desc$set(Title = "Sigident Functional Analysis")
 # The description of your package
@@ -74,7 +74,7 @@ usethis::use_package("limma", type="Imports")
 
 
 # Development package
-preproc_tag <- "v0.0.5"
+preproc_tag <- "development"
 devtools::install_github("miracum/clearly-sigident.preproc", ref = preproc_tag, upgrade = "always")
 # https://cran.r-project.org/web/packages/devtools/vignettes/dependencies.html
 desc::desc_set_remotes(c(
