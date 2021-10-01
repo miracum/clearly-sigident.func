@@ -114,10 +114,10 @@ export_deg_annotations <- function(mergedset,
 
   stopifnot(idtype %in% c("entrez", "affy"))
   ids <- mergedset@featureData@data[, "ID"]
-  sym <- Biobase::fData(mergedset)["Gene Symbol"][ids, ]
-  tit <- Biobase::fData(mergedset)["Gene Title"][ids, ]
-  gb_acc <- Biobase::fData(mergedset)["GB_ACC"][ids, ]
-  entrez <- Biobase::fData(mergedset)["ENTREZ_GENE_ID"][ids, ]
+  sym <- Biobase::fData(mergedset)["Gene symbol"][ids, ]
+  tit <- Biobase::fData(mergedset)["Gene title"][ids, ]
+  gb_acc <- Biobase::fData(mergedset)["GenBank Accession"][ids, ]
+  entrez <- Biobase::fData(mergedset)["Gene ID"][ids, ]
   degs_info <- data.table::data.table(cbind(ids,
                                             sym,
                                             tit,
